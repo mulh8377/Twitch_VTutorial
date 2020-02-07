@@ -27,6 +27,44 @@ git-pull: v-pull v-snap
 # do batch move compile
 vb-mc: vb-move vb-comp
 
+# create v file template
+create-template: v-template
+	cp temp.v src/
+	cp src/temp.v src/v_template.v
+	rm -f src/temp.v
+	rm -f temp.v
+
+clean-template:
+	rm -f src/v_template.v
+
+create-doc: md-template
+	rm -f temp_doc.md
+
+save-doc:
+	cp -r doc/todo/*.md doc/
+	cp -r doc/*.md log/temp/doc
+
+clean-doc: md-clean
+	rm -f log/temp/todo/*.md
+	rm -f doc/todo/*.md
+	rm -rf bin/temp/doc/todo/
+
+v-template:
+	bash vsh/shell/vmake/base_v_file.sh > temp.v
+
+md-template:
+	mkdir log/temp/todo/
+	mkdir log/temp/doc/
+	bash vsh/shell/vmake/base_doc_file.sh > doc/todo/temp_doc.md
+	cp doc/todo/temp_doc.md doc/
+	cp doc/todo/temp_doc.md log/temp/todo/temp_doc.md
+
+md-clean:
+	rm -f log/temp/todo/*.md
+	rm -f log/temp/doc/*.md
+	rmdir log/temp/todo/
+	rmdir log/temp/doc/
+	rm -rf doc/todo/*.md
 
 v-gen:
 	bash vsh/shell/vdang/vcreate.sh

@@ -1,0 +1,15 @@
+["JohnnyApple@gmail.com", "JohnnyApple@yahoo.com", "JohnnyApple@hotmail.com"]
+Chad is Going to Smash Tonight
+2.000000
+10.000000
+2
+10
+# name: Johnny Appleseed 
+## contact: 420-420-6969
+## email information: 
+
+JohnnyApple@gmail.com
+
+JohnnyApple@yahoo.com
+
+JohnnyApple@hotmail.com

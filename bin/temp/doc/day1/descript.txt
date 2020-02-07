@@ -1,0 +1,62 @@
+This video includes an explanation of ints, floats, booleans, and strings. Each basic type is further explored by writing some basic V functions and returning them. 
+
+I also briefly discuss ideal ways of setting up conditional statements if/elif/else and showcase some looping techniques for loops in V. 
+
+Array lists are also momentarily discussed in this video, but will be elaborated as this series progresses.
+
+I end the video by showing my audience how to create a simple markdown file by 
+redirecting output from a V program.
+
+This video is a reupload from my Twitch live stream. Follow my twitch tosstosstoss to watch future coding sessions as they happen!
+
+Please like and subscribe if you enjoyed.
+
+Thank you for Watching! Until next time - tosstosstoss!
+
+
+
+Information About V-
+
+github- vlang/v
+
+domain- vlang.io/
+
+description-     
+"Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in 1s with zero dependencies."
+
+"V is a statically typed compiled programming language designed for building maintainable software.
+It's similar to Go and is also influenced by Oberon, Rust, Swift.
+
+V is a very simple language. Going through this documentation will take you about half an hour, and by the end of it you will learn pretty much the entire language.
+
+Despite being simple, it gives a lot of power to the developer. Anything you 
+can do in other languages, you can do in V."
+
+
+
+Follow Me At-
+
+Twitch - tosstosstoss
+
+Twitter - 3xtoss
+
+Github - mulh8377
+
+
+
+Follow My Shoutouts-
+
+Twitch - raykwon
+
+Twitch - thebfenske
+
+Twitch - sheriffcromwell
+
+Twitch - Lana_Lux
+
+Twitch - Hood______
+
+Twitch - fadedwhoo
+
+Twitch - pnash
+
