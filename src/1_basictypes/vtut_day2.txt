@@ -1,0 +1,7 @@
+passing multiple values to functions
+simple structs
+writing functions for simple structs
+testing functions for structs
+dive into more complex features of the language
+Thanks for tuning in, I love you guys! Join the Discord and Follow if you enjoy the content
+toss toss toss
